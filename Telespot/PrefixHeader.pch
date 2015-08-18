@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  Spot Maps
+//
+//  Created by JG on 4/7/15.
+//  Copyright (c) 2015 TeleSpot. All rights reserved.
+//
+
+#ifndef Spot_Maps_PrefixHeader_pch
+#define Spot_Maps_PrefixHeader_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#endif

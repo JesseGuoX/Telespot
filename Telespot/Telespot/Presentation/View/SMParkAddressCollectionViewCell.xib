@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" verticalHuggingPriority="249" verticalCompressionResistancePriority="249" id="uuH-lx-lhc" customClass="SMParkAddressCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqv-j5-834">
+                        <rect key="frame" x="77" y="19" width="235" height="60"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="e44-PN-45r"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_bulb" translatesAutoresizingMaskIntoConstraints="NO" id="Cxm-Ck-sBq">
+                        <rect key="frame" x="28" y="35" width="29" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Cxm-Ck-sBq" secondAttribute="height" multiplier="1:1" id="Azu-Ox-7zc"/>
+                            <constraint firstAttribute="width" constant="29" id="SaK-hf-eSg"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="Cxm-Ck-sBq" firstAttribute="width" secondItem="Cxm-Ck-sBq" secondAttribute="height" multiplier="1:1" id="3E8-cl-Kq9"/>
+                <constraint firstItem="Cxm-Ck-sBq" firstAttribute="top" secondItem="uuH-lx-lhc" secondAttribute="top" constant="31" id="88L-sP-cZr"/>
+                <constraint firstAttribute="trailing" secondItem="xqv-j5-834" secondAttribute="trailing" constant="8" id="aag-y1-BMl"/>
+                <constraint firstAttribute="centerY" secondItem="Cxm-Ck-sBq" secondAttribute="centerY" id="m9n-Vs-HR7"/>
+                <constraint firstAttribute="centerY" secondItem="xqv-j5-834" secondAttribute="centerY" id="uY0-4f-vkh"/>
+                <constraint firstAttribute="bottom" secondItem="xqv-j5-834" secondAttribute="bottom" constant="20" id="vO5-Cb-t4V"/>
+                <constraint firstItem="Cxm-Ck-sBq" firstAttribute="leading" secondItem="uuH-lx-lhc" secondAttribute="leading" constant="28" id="wtV-F1-uPe"/>
+                <constraint firstItem="xqv-j5-834" firstAttribute="leading" secondItem="Cxm-Ck-sBq" secondAttribute="trailing" constant="20" id="yhc-RA-D4W"/>
+            </constraints>
+            <size key="customSize" width="602" height="99"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="88L-sP-cZr"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="constraintTextViewHeight" destination="e44-PN-45r" id="wnD-aa-duW"/>
+                <outlet property="textView" destination="xqv-j5-834" id="dcg-3V-etd"/>
+            </connections>
+            <point key="canvasLocation" x="148" y="143.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_bulb" width="34" height="34"/>
+    </resources>
+</document>

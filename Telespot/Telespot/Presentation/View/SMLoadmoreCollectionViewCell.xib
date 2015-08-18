@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SMLoadmoreCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击加载更多" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoP-Wt-5uV">
+                    <rect key="frame" x="249" y="290" width="102" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Yxn-vY-4QJ">
+                    <rect key="frame" x="359" y="290" width="20" height="20"/>
+                    <color key="color" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="0.93272569444444442" green="0.93272569444444442" blue="0.93272569444444442" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Yxn-vY-4QJ" firstAttribute="top" secondItem="aoP-Wt-5uV" secondAttribute="top" id="1f7-RM-sl2"/>
+                <constraint firstAttribute="centerY" secondItem="aoP-Wt-5uV" secondAttribute="centerY" id="IVh-RI-FtC"/>
+                <constraint firstAttribute="centerY" secondItem="aoP-Wt-5uV" secondAttribute="centerY" constant="40.5" id="PvR-Yv-uHY"/>
+                <constraint firstAttribute="centerY" secondItem="aoP-Wt-5uV" secondAttribute="centerY" constant="40.5" id="VTP-Ow-eHj"/>
+                <constraint firstAttribute="centerX" secondItem="aoP-Wt-5uV" secondAttribute="centerX" id="fUf-Hd-k6F"/>
+                <constraint firstItem="Yxn-vY-4QJ" firstAttribute="leading" secondItem="aoP-Wt-5uV" secondAttribute="trailing" constant="8" id="nDJ-va-7FH"/>
+                <constraint firstAttribute="centerX" secondItem="aoP-Wt-5uV" secondAttribute="centerX" id="xbo-49-UJb"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="PvR-Yv-uHY"/>
+                    <exclude reference="VTP-Ow-eHj"/>
+                    <exclude reference="xbo-49-UJb"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="loadIndicator" destination="Yxn-vY-4QJ" id="0Wp-Ci-eXK"/>
+                <outlet property="loadLable" destination="aoP-Wt-5uV" id="1uV-Lr-B7s"/>
+            </connections>
+        </view>
+    </objects>
+</document>

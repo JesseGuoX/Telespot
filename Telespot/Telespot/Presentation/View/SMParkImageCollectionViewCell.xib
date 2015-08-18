@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="xim-Y6-3G2" customClass="SMParkImageCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="173" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="173" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="favorite_count_icon" translatesAutoresizingMaskIntoConstraints="NO" id="i4f-ki-eAR">
+                        <rect key="frame" x="107" y="160" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="CH1-f3-kDr"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lf3-HR-d6x" userLabel="favoriteCountLable">
+                        <rect key="frame" x="123" y="157" width="42" height="15"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WuY-Ki-Jhh" customClass="PFImageView">
+                        <rect key="frame" x="8" y="8" width="157" height="132"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8Z-as-cce" userLabel="nameLable">
+                        <rect key="frame" x="8" y="157" width="90" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="1vM-6X-WLB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="WuY-Ki-Jhh" firstAttribute="leading" secondItem="S8Z-as-cce" secondAttribute="leading" id="05g-dR-8Dn"/>
+                <constraint firstItem="lf3-HR-d6x" firstAttribute="top" secondItem="i4f-ki-eAR" secondAttribute="top" constant="-3" id="27r-yT-Xe7"/>
+                <constraint firstItem="i4f-ki-eAR" firstAttribute="top" secondItem="S8Z-as-cce" secondAttribute="top" id="9od-Se-3qB"/>
+                <constraint firstItem="WuY-Ki-Jhh" firstAttribute="leading" secondItem="xim-Y6-3G2" secondAttribute="leadingMargin" id="E37-Or-drY"/>
+                <constraint firstItem="WuY-Ki-Jhh" firstAttribute="leading" secondItem="S8Z-as-cce" secondAttribute="leading" id="H2i-Lm-L4I"/>
+                <constraint firstItem="i4f-ki-eAR" firstAttribute="leading" secondItem="S8Z-as-cce" secondAttribute="trailing" constant="9" id="MG2-Ak-L5M"/>
+                <constraint firstItem="WuY-Ki-Jhh" firstAttribute="top" secondItem="xim-Y6-3G2" secondAttribute="topMargin" id="Trm-5G-H0T"/>
+                <constraint firstItem="WuY-Ki-Jhh" firstAttribute="trailing" secondItem="S8Z-as-cce" secondAttribute="trailing" id="VJU-Rc-Xgd"/>
+                <constraint firstItem="lf3-HR-d6x" firstAttribute="trailing" secondItem="WuY-Ki-Jhh" secondAttribute="trailing" id="Ymg-9b-f54"/>
+                <constraint firstItem="lf3-HR-d6x" firstAttribute="leading" secondItem="i4f-ki-eAR" secondAttribute="trailing" constant="6" id="bCE-xE-Ves"/>
+                <constraint firstAttribute="bottom" secondItem="WuY-Ki-Jhh" secondAttribute="bottom" constant="60" id="bNL-H6-HWq"/>
+                <constraint firstItem="i4f-ki-eAR" firstAttribute="top" secondItem="S8Z-as-cce" secondAttribute="top" constant="3" id="dLg-0o-KQa"/>
+                <constraint firstAttribute="trailingMargin" secondItem="WuY-Ki-Jhh" secondAttribute="trailing" id="deL-PY-BVn"/>
+                <constraint firstItem="i4f-ki-eAR" firstAttribute="bottom" secondItem="S8Z-as-cce" secondAttribute="top" constant="38" id="fBM-Up-VL9"/>
+                <constraint firstItem="lf3-HR-d6x" firstAttribute="baseline" secondItem="S8Z-as-cce" secondAttribute="baseline" id="fbm-ik-wBE"/>
+                <constraint firstItem="S8Z-as-cce" firstAttribute="top" secondItem="WuY-Ki-Jhh" secondAttribute="bottom" constant="17" id="fwG-6v-zmx"/>
+                <constraint firstItem="i4f-ki-eAR" firstAttribute="leading" secondItem="S8Z-as-cce" secondAttribute="trailing" constant="9" id="hYL-Xa-awS"/>
+                <constraint firstItem="WuY-Ki-Jhh" firstAttribute="trailing" secondItem="i4f-ki-eAR" secondAttribute="trailing" constant="48" id="l5h-R5-fqX"/>
+                <constraint firstItem="lf3-HR-d6x" firstAttribute="leading" secondItem="i4f-ki-eAR" secondAttribute="trailing" constant="6" id="nCi-8G-0aw"/>
+                <constraint firstItem="i4f-ki-eAR" firstAttribute="top" secondItem="S8Z-as-cce" secondAttribute="top" constant="3" id="sIW-Zc-c0e"/>
+                <constraint firstItem="lf3-HR-d6x" firstAttribute="top" secondItem="i4f-ki-eAR" secondAttribute="top" constant="-3" id="uG8-vF-i1a"/>
+            </constraints>
+            <size key="customSize" width="173" height="218"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="H2i-Lm-L4I"/>
+                    <exclude reference="VJU-Rc-Xgd"/>
+                    <exclude reference="l5h-R5-fqX"/>
+                    <exclude reference="9od-Se-3qB"/>
+                    <exclude reference="fBM-Up-VL9"/>
+                    <exclude reference="hYL-Xa-awS"/>
+                    <exclude reference="sIW-Zc-c0e"/>
+                    <exclude reference="27r-yT-Xe7"/>
+                    <exclude reference="nCi-8G-0aw"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="favoriteCountLable" destination="lf3-HR-d6x" id="3NJ-mQ-XJp"/>
+                <outlet property="imageView" destination="WuY-Ki-Jhh" id="3nj-EH-OWT"/>
+                <outlet property="nameLable" destination="S8Z-as-cce" id="LOK-tJ-ClI"/>
+            </connections>
+            <point key="canvasLocation" x="-45.5" y="840"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="favorite_count_icon" width="10" height="10"/>
+    </resources>
+</document>

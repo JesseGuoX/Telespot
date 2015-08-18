@@ -1,0 +1,68 @@
+PODS:
+  - Bolts (1.1.4)
+  - CCHMapClusterController (1.6.6)
+  - CSNotificationView (0.5.4)
+  - CWStatusBarNotification (2.2.6)
+  - EBPhotoPages (0.9.1)
+  - INTULocationManager (3.0.1)
+  - JVFloatLabeledTextField (1.0.2)
+  - kingpin (0.2.4)
+  - Masonry (0.6.1)
+  - MBProgressHUD (0.9.1)
+  - MHNatGeoViewControllerTransition (1.0)
+  - MJRefresh (1.4.7)
+  - Parse (1.7.1):
+    - Bolts (~> 1.1)
+  - ParseUI (1.1.3):
+    - Parse (~> 1.7)
+  - pop (1.0.7)
+  - RJImageLoader (0.3.0)
+  - RSKImageCropper (1.1.3)
+  - SZTextView (1.2.1)
+  - TTRangeSlider (1.0.2)
+  - UIImage+ImageCompress (0.0.1)
+
+DEPENDENCIES:
+  - CCHMapClusterController
+  - CSNotificationView
+  - CWStatusBarNotification (~> 2.2.6)
+  - EBPhotoPages (~> 0.9.1)
+  - INTULocationManager
+  - JVFloatLabeledTextField
+  - kingpin
+  - Masonry
+  - MBProgressHUD (~> 0.9)
+  - MHNatGeoViewControllerTransition
+  - MJRefresh
+  - Parse
+  - ParseUI
+  - pop
+  - RJImageLoader
+  - RSKImageCropper
+  - SZTextView
+  - TTRangeSlider
+  - UIImage+ImageCompress
+
+SPEC CHECKSUMS:
+  Bolts: f8e2f94edbf9fec7bb8de5ecaaa3aa6b7de6f64e
+  CCHMapClusterController: 982db41114b42a575798366371bd9908e0f9ec8b
+  CSNotificationView: 0792f5220163c2befaf1a9716aa3d5a7d6bd4fb1
+  CWStatusBarNotification: b7d08c63bbfcceee08b63cab041560a6f5cdefb6
+  EBPhotoPages: 57ad7f10c6fc92b734954e00cd98e8eea6feae82
+  INTULocationManager: c27483113e1bbc5952ead6417f9b39824a240ebb
+  JVFloatLabeledTextField: 58a3a32cfb800e5b224f676987e7c13abf50a14d
+  kingpin: 776d0a0615cde79196e05ac5a9ecde07c0229603
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MHNatGeoViewControllerTransition: 8bbfd6abd30056a82168754d356ad049cdf17aa2
+  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  Parse: fa8ec29de6d82035635986c11946299fb1b38316
+  ParseUI: 1a68e9cebc3bd458eed9605ce7b33d7cc082f473
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  RJImageLoader: f0d9edebeb7837feb0ce51759826900645770db7
+  RSKImageCropper: 283bb4f39ced96cc9023ad3b7bc7bc68755845bb
+  SZTextView: 906df45afd3c1b24fc5252088d5ef8061513c238
+  TTRangeSlider: e41d992cc0047da48884ad507f968db5ab08441b
+  UIImage+ImageCompress: 6b38489f38075d569d9f25d72af7ecf5c84c1057
+
+COCOAPODS: 0.36.0
