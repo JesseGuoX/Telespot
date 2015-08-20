@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/cocoapods/l/TWPhotoPicker.svg)
 ![Platform](https://img.shields.io/cocoapods/p/TWPhotoPicker.svg)
 
-[App Store]()
+[App Store](https://appsto.re/us/Ek5t8.i)
 ##截图
 ![ScreenShot](https://github.com/JGINGIT/Telespot/blob/master/ScreenShot/Preview.png)
 
