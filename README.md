@@ -32,7 +32,7 @@ Telespot是一款滑板地形查找应用，帮助滑手查找全世界的滑板
 
 ##使用方法 Usage
 Telespot 使用 CocoaPod 管理第三方库，所以编译应用前需要先使用 ```pod install```安装第三方库。
-Telespot 使用 [Parse](Parse.com) 作为后台服务，所以应用中需要填写相应的应用ID才能完整编译。相关宏定义在 ```SMConstants.h``` 文件中。
+Telespot 使用 [Parse](http://Parse.com) 作为后台服务，所以应用中需要填写相应的应用ID才能完整编译。相关宏定义在 ```SMConstants.h``` 文件中。
 
 
 ##Requirements
