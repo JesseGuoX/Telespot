@@ -4,7 +4,8 @@
 
 [App Store](https://appsto.re/us/Ek5t8.i)
 ##截图
-![ScreenShot](https://github.com/JGINGIT/Telespot/blob/master/ScreenShot/Preview.png)
+
+![ScreenShot](ScreenShot/Preview.png)
 
 ## 1. Telespot是什么？
 Telespot是一款滑板地形查找应用，帮助滑手查找全世界的滑板地形。
